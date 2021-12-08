@@ -1,16 +1,17 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+.btn {
+  @apply shadow-md py-3 px-6 rounded-md transition duration-300;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.btn-green {
+  @apply bg-green-500 text-white hover:bg-template-white hover:text-black;
 }
-
-* {
-  box-sizing: border-box;
+.btn-white {
+  @apply bg-white hover:bg-green-500 hover:text-white;
 }

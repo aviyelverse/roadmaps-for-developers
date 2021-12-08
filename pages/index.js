@@ -1,5 +1,6 @@
 import Head from "next/head";
 import MainHero from "../components/MainHero";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -7,12 +8,9 @@ export default function Home() {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Landing Page Template</title>
+        <title>Frontend Roadmap</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="A Next.js company landing page template"
-        />
+        <meta name="description" content="Frontend Roadmap" />
       </Head>
       <div className="font-Poppins">
         <MainHero />
