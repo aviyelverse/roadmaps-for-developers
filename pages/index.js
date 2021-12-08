@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Frontend Roadmap" />
       </Head>
-      <div className="font-Poppins">
+      <div className="font-Poppin">
         <header>
           <Navbar />
         </header>
