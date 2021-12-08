@@ -13,6 +13,9 @@ export default function Home() {
         <meta name="description" content="Frontend Roadmap" />
       </Head>
       <div className="font-Poppins">
+        <header>
+          <Navbar />
+        </header>
         <MainHero />
       </div>
     </>
