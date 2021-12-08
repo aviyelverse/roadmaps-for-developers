@@ -1,6 +1,7 @@
 import Head from "next/head";
 import MainHero from "../components/MainHero";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <Navbar />
         </header>
         <MainHero />
+        <Footer />
       </div>
     </>
   );
