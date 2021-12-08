@@ -78,7 +78,7 @@ const MainBody = () => {
       </div>
 
       {/* Javascript */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pb-8">
         <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
@@ -95,11 +95,11 @@ const MainBody = () => {
           </div>
         </div>
         {/* Back Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-42 right-0 lg:-bottom-28 lg:right-200"></div>
+        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 pb-11 top-42 right-0 lg:-bottom-28 lg:right-200"></div>
       </div>
 
       {/* WEB security */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pb-11">
         <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
@@ -118,7 +118,7 @@ const MainBody = () => {
       </div>
 
       {/* Version Control */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pt-8">
         <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
@@ -135,16 +135,16 @@ const MainBody = () => {
           </div>
         </div>
         {/* Back Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-18 right-0 lg:-bottom-28 lg:right-200"></div>
       </div>
 
       {/* Testing */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pt-8">
         <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
-              src="./img/BasicsOfInternet.png"
+              src="./img/Testing.png"
               alt=""
             />
           </div>
@@ -157,16 +157,16 @@ const MainBody = () => {
           </div>
         </div>
         {/* Rounded Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 -bottom-24 -left-36"></div>
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 -bottom-48 -left-36"></div>
       </div>
 
       {/* Package Manager */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pt-11 pb-10">
         <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full rounded-lg"
-              src="./img/BasicsOfInternet.png"
+              src="./img/PackageManager.png"
               alt=""
             />
           </div>
@@ -178,16 +178,16 @@ const MainBody = () => {
           </div>
         </div>
         {/* Back Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-14 right-0 lg:-bottom-48 lg:right-200"></div>
       </div>
 
       {/* Hosting */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pt-11">
         <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
-              src="./img/BasicsOfInternet.png"
+              src="./img/Hosting.png"
               alt=""
             />
           </div>
@@ -199,16 +199,16 @@ const MainBody = () => {
           </div>
         </div>
         {/* Rounded Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 -bottom-24 -left-36"></div>
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2  top-14 -bottom-24 -left-36"></div>
       </div>
 
       {/* Modern CSS */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pt-11">
         <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full rounded-lg"
-              src="./img/BasicsOfInternet.png"
+              src="./img/ModernCss.png"
               alt=""
             />
           </div>
@@ -220,16 +220,16 @@ const MainBody = () => {
           </div>
         </div>
         {/* Back Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-14 right-0 lg:-bottom-28 lg:right-200"></div>
       </div>
 
       {/* Apis */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pt-11">
         <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
-              src="./img/BasicsOfInternet.png"
+              src="./img/Api.png"
               alt=""
             />
           </div>
@@ -241,16 +241,16 @@ const MainBody = () => {
           </div>
         </div>
         {/* Rounded Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 -bottom-24 -left-36"></div>
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-14 -bottom-24 -left-36"></div>
       </div>
 
       {/* Modern Frameworks */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pt-11">
         <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full rounded-lg"
-              src="./img/BasicsOfInternet.png"
+              src="./img/ModernFrameworks.png"
               alt=""
             />
           </div>
@@ -262,16 +262,16 @@ const MainBody = () => {
           </div>
         </div>
         {/* Back Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-14 right-0 lg:-bottom-28 lg:right-200"></div>
       </div>
 
       {/* Static site Generators */}
-      <div className="relative mt-20 lg:mt-40">
+      <div className="relative mt-20 lg:mt-40 pt-11 pb-20">
         <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
-              src="./img/BasicsOfInternet.png"
+              src="./img/StaticSiteGenerators.png"
               alt=""
             />
           </div>
@@ -285,7 +285,7 @@ const MainBody = () => {
           </div>
         </div>
         {/* Rounded Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 -bottom-24 -left-36"></div>
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-14 right-0 -bottom-24 -left-36 "></div>
       </div>
     </section>
   );
