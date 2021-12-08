@@ -39,7 +39,7 @@ const MainBody = () => {
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full rounded-lg"
-              src="./img/BasicsOfInternet.png"
+              src="./img/Html.png"
               alt=""
             />
           </div>
@@ -52,7 +52,7 @@ const MainBody = () => {
           </div>
         </div>
         {/* Back Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
       </div>
 
       {/* CSS */}
@@ -61,7 +61,7 @@ const MainBody = () => {
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
-              src="./img/BasicsOfInternet.png"
+              src="./img/Css.png"
               alt=""
             />
           </div>
@@ -83,7 +83,7 @@ const MainBody = () => {
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full rounded-lg"
-              src="./img/BasicsOfInternet.png"
+              src="./img/Javascript.png"
               alt=""
             />
           </div>
@@ -95,7 +95,7 @@ const MainBody = () => {
           </div>
         </div>
         {/* Back Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-42 right-0 lg:-bottom-28 lg:right-200"></div>
       </div>
 
       {/* WEB security */}
@@ -104,7 +104,7 @@ const MainBody = () => {
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
-              src="./img/BasicsOfInternet.png"
+              src="./img/Websecurity.png"
               alt=""
             />
           </div>
@@ -114,7 +114,7 @@ const MainBody = () => {
           </div>
         </div>
         {/* Rounded Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 -bottom-24 -left-36"></div>
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 -bottom-48 -left-36"></div>
       </div>
 
       {/* Version Control */}
@@ -123,7 +123,7 @@ const MainBody = () => {
           <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full rounded-lg"
-              src="./img/BasicsOfInternet.png"
+              src="./img/VersionControl.png"
               alt=""
             />
           </div>
@@ -135,7 +135,7 @@ const MainBody = () => {
           </div>
         </div>
         {/* Back Rectangle */}
-        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+        <div className="hidden lg:block overflow-hidden bg-red-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
       </div>
 
       {/* Testing */}
