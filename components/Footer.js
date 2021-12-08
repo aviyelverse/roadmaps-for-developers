@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-template-blue py-8">
       <div className="container flex flex-col md:flex-row items-center">
         <div className="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
-          <img src="/img/Frontend.svg" alt="Company Logo" width="100" />
+          <img src="/img/aviyel.png" alt="Company Logo" width="100" />
           <ul className="flex text-white uppercase gap-12 text-xs">
             <li className="cursor-pointer">
               <a
