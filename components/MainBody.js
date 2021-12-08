@@ -180,6 +180,113 @@ const MainBody = () => {
         {/* Back Rectangle */}
         <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
       </div>
+
+      {/* Hosting */}
+      <div className="relative mt-20 lg:mt-40">
+        <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
+              src="./img/BasicsOfInternet.png"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-1 flex-col items-center lg:items-start">
+            <h1 className="text-3xl text-template-blue">Hosting</h1>
+            <p className="text-template-grey my-5 text-center lg:text-left sm:w-3/4 lg:w-full">
+              Hosting is the foundation of everything.
+            </p>
+          </div>
+        </div>
+        {/* Rounded Rectangle */}
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 -bottom-24 -left-36"></div>
+      </div>
+
+      {/* Modern CSS */}
+      <div className="relative mt-20 lg:mt-40">
+        <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+          <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full rounded-lg"
+              src="./img/BasicsOfInternet.png"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-1 flex-col items-center lg:items-start">
+            <h1 className="text-3xl text-template-blue">Modern CSS</h1>
+            <p className="text-template-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+              Modern CSS
+            </p>
+          </div>
+        </div>
+        {/* Back Rectangle */}
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+      </div>
+
+      {/* Apis */}
+      <div className="relative mt-20 lg:mt-40">
+        <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
+              src="./img/BasicsOfInternet.png"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-1 flex-col items-center lg:items-start">
+            <h1 className="text-3xl text-template-blue">API</h1>
+            <p className="text-template-grey my-5 text-center lg:text-left sm:w-3/4 lg:w-full">
+              API stands for Application Programming Interface.
+            </p>
+          </div>
+        </div>
+        {/* Rounded Rectangle */}
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 -bottom-24 -left-36"></div>
+      </div>
+
+      {/* Modern Frameworks */}
+      <div className="relative mt-20 lg:mt-40">
+        <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+          <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full rounded-lg"
+              src="./img/BasicsOfInternet.png"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-1 flex-col items-center lg:items-start">
+            <h1 className="text-3xl text-template-blue">Modern Frameworks</h1>
+            <p className="text-template-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+              Modern Frameworks
+            </p>
+          </div>
+        </div>
+        {/* Back Rectangle */}
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:right-200"></div>
+      </div>
+
+      {/* Static site Generators */}
+      <div className="relative mt-20 lg:mt-40">
+        <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
+              src="./img/BasicsOfInternet.png"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-1 flex-col items-center lg:items-start">
+            <h1 className="text-3xl text-template-blue">
+              Static site Generators
+            </h1>
+            <p className="text-template-grey my-5 text-center lg:text-left sm:w-3/4 lg:w-full">
+              Static site Generators.
+            </p>
+          </div>
+        </div>
+        {/* Rounded Rectangle */}
+        <div className="hidden lg:block overflow-hidden bg-green-500 rounded-lg absolute h-80 w-1/2 top-32 right-0 -bottom-24 -left-36"></div>
+      </div>
     </section>
   );
 };
