@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <nav className="container bg-white rounded-lg flex items-center py-3 mt-4 sm:mt-5">
       <div className="py-1 w-32">
-        <img src="./img/Frontend.svg" alt="" />
+        <img src="./img/aviyel.svg" alt="" />
       </div>
       <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-landing-blue uppercase text-xs">
         <li className="cursor-pointer">
