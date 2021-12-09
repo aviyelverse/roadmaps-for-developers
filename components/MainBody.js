@@ -2,7 +2,7 @@ import React from "react";
 
 const MainBody = () => {
   return (
-    <section className="bg-template-white py-20 mt-20 lg:mt-60">
+    <section className="bg-template-light-purple py-20 mt-20 lg:mt-60">
       {/* Heading */}
       <div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
         <h1 className="text-3xl text-center text-template-blue">Roadmaps</h1>
