@@ -22,7 +22,7 @@ const Navbar = () => {
         >
           <button
             type="button"
-            className="bg-green-500 text-white rounded-lg px-7 py-3 uppercase hover:bg-red-500"
+            className="bg-template-purple text-white rounded-lg px-7 py-3 uppercase hover:bg-green-500"
           >
             Full roadmap
           </button>
